@@ -1,41 +1,41 @@
 <div class="grid_2">
-    <div class="box sidemenu">
-        <div class="block" id="section-menu">
-            <ul class="section menu">
-               <li><a class="menuitem">Site Option</a>
-                    <ul class="submenu">
-                        <li><a href="titleslogan.php">Title & Slogan</a></li>
-                        <li><a href="social.php">Social Media</a></li>
-                        <li><a href="copyright.php">Copyright</a></li>
-                        
-                    </ul>
-                </li>
+	<div class="box sidemenu">
+		<div class="block" id="section-menu">
+			<ul class="section menu">
+				<li><a class="menuitem">Thông tin trang</a>
+					<ul class="submenu">
+						<li><a href="titleslogan.php">Khẩu hiệu</a></li>
+						<li><a href="social.php">Âm thanh</a></li>
+						<li><a href="copyright.php">Bản quyền</a></li>
+					
+					</ul>
+				</li>
 				
-                 <li><a class="menuitem">Update Pages</a>
-                    <ul class="submenu">
-                        <li><a>About Us</a></li>
-                        <li><a>Contact Us</a></li>
-                    </ul>
-                </li>
-				<li><a class="menuitem">Slider Option</a>
-                    <ul class="submenu">
-                        <li><a href="addslider.php">Add Slider</a> </li>
-                        <li><a href="sliderlist.php">Slider List</a> </li>
-                    </ul>
-                </li>
-                <li><a class="menuitem">Category Option</a>
-                    <ul class="submenu">
-                        <li><a href="addcat.php">Add Category</a> </li>
-                        <li><a href="catlist.php">Category List</a> </li>
-                    </ul>
-                </li>
-                <li><a class="menuitem">Product Option</a>
-                    <ul class="submenu">
-                        <li><a href="addproduct.php">Add Product</a> </li>
-                        <li><a href="productlist.php">Product List</a> </li>
-                    </ul>
-                </li>
-            </ul>
-        </div>
-    </div>
+				<li><a class="menuitem">Cập nhật trang</a>
+					<ul class="submenu">
+						<li><a>About Us</a></li>
+						<li><a>Liên hệ</a></li>
+					</ul>
+				</li>
+				<li><a class="menuitem">Quảng cáo</a>
+					<ul class="submenu">
+						<li><a href="addslider.php">Thêm</a></li>
+						<li><a href="sliderlist.php">Danh sách</a></li>
+					</ul>
+				</li>
+				<li><a class="menuitem">Danh mục</a>
+					<ul class="submenu">
+						<li><a href="catadd.php">Thêm</a></li>
+						<li><a href="catlist.php">Danh sách danh mục</a></li>
+					</ul>
+				</li>
+				<li><a class="menuitem">Sản phẩm</a>
+					<ul class="submenu">
+						<li><a href="addproduct.php">Thêm</a></li>
+						<li><a href="productlist.php">Danh sách</a></li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+	</div>
 </div>

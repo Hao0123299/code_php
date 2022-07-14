@@ -2,20 +2,20 @@
 	include '../classes/adminlogin.php';
 ?>
 <?php
-//gọi class
+	//gọi class
 	$class = new adminlogin();
-	if($_SERVER['REQUEST_METHOD'] === 'POST'){
+	if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 		$user = $_POST['user'];
 		$pass = md5($_POST['pass']);
 		$checkLogin = $class->checkLogin($user, $pass);
 	}
-	
+
 ?>
 <!DOCTYPE html>
 <head>
-<meta charset="utf-8">
-<title>Login</title>
-    <link rel="stylesheet" type="text/css" href="css/stylelogin.css" media="screen" />
+	<meta charset="utf-8">
+	<title>Login</title>
+	<link rel="stylesheet" type="text/css" href="css/stylelogin.css" media="screen"/>
 </head>
 <body>
 <div class="container">
@@ -24,25 +24,24 @@
 			<h1>Đăng nhập quản trị</h1>
 			<span>
 				<?php
-				if(isset($checkLogin))
-				{
-					echo $checkLogin;
-				}
+					if (isset($checkLogin)) {
+						echo $checkLogin;
+					}
 				?>
 			</span>
 			<div>
-				<input type="text" placeholder="Username"  name="user"/>
+				<input type="text" placeholder="Tên đăng nhập" name="user"/>
 			</div>
 			<div>
-				<input type="password" placeholder="Password" name="pass"/>
+				<input type="password" placeholder="Mật khẩu" name="pass"/>
 			</div>
 			<div>
-				<input type="submit" value="Log in" />
+				<input type="submit" value="Đăng nhập"/>
 			</div>
 		</form><!-- form -->
-		<div class="button">
-			<a href="#">Training with live project</a>
-		</div><!-- button -->
+		<!--		<div class="button">-->
+		<!--			<a href="#">Training with live project</a>-->
+		<!--		</div> button -->
 	</section><!-- content -->
 </div><!-- container -->
 </body>
